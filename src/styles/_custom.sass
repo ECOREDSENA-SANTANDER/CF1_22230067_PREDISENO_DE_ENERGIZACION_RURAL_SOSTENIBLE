@@ -1,30 +1,569 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 35%
+    right: 20%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float 3s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 10%
+    right: 40%
+  &-3
+    position: absolute
+    top: 70%
+    right: 75%
+    animation: float 2.5s ease-in-out infinite alternate
+  &-4
+    position: absolute
+    top: 60%
+    right: 35%
+    animation: float 2.8s ease-in-out infinite alternate
 
-@keyframes float1
+@keyframes float
   0%
     transform: translateY(20px)
   100%
     transform: translateY(0px)
   
+.col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
+  flex: 0 0 auto !important
+  width: 45% !important
+  @media screen and (max-width: $bp-max-md)
+    width: 95% !important
 
-.banner-principal .tarjeta
-  background-position: left 50% !important
 .banner-principal__row .banner-principal__img
-  width: 400px !important  
+  width: 450px !important
+  @media screen and (max-width: $bp-max-xl)
+    width: 400px !important
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: white !important   
 .banner-interno__titulo__icono i
   color: $color-primario
 figcaption
   font-weight: normal
- 
+
+.banner-principal
+  @media (max-width: $bp-max-md)
+    .tarjeta
+      background-image: url('../assets/curso/portada/tablet.png') !important
+      background-repeat: no-repeat 
+      background-size: 100% 100%
+      background-position: cover
+    &__info
+      padding-top: 8% !important 
+      padding-right: 5% !important
+  @media (max-width: 767px) 
+    .tarjeta
+      background-image: url('../assets/curso/portada/movil.png') !important
+      background-repeat: no-repeat 
+      background-size: 100% 100%
+      background-position: cover
+    &__info
+      padding-top: 15% !important 
+      padding-right: 5% !important
+.banner-interno__fondo    
+  background-image: url("../assets/curso/portada/portada.png") !important
+
+.titulo-segundo:after 
+  content: ''
+  display: block
+  height: 4.5px
+  width: 140px
+  border-left: solid 50px
+  border-left-color: #6C4826
+  background-color: #e8e8e8
+
+.titulo-sexto
+  border-left: 10px solid
+  padding: 6px 0 6px 8px
+  border-left-color: #6C4826 !important
+
+.img-t
+  width: auto
+  height: auto 
+.img-a
+  display: block
+  margin: auto
+
+.barra-avance__boton--regresar span 
+  color: $white !important
+
+
+/////////////////////////////////INTRO/////////////////////////////////
+
+.bg1
+  background-color: #FFF7E5
+
+
+/////////////////////////////////TEMA1/////////////////////////////////
+
+.bl1
+  position: relative
+  overflow: hidden
+.enc
+  position: absolute
+  bottom: -47px
+  right: -3rem
+  width: 37% 
+  z-index: 1
+  @media (max-width: 1300px)
+    display: none
+@media (min-width: 768px) and (max-width: 1024px)
+  .col-lg-8.col-texto
+    flex: 0 0 auto
+    width: 67%
+@media (max-width: 1300px)
+  .col-lg-8.col-texto
+    flex: 0 0 auto
+    width: 100%
+.bloque-texto-a.color-acento-contenido
+  .bloque-texto-a__texto 
+    background-color: rgba(255, 255, 255, 0.90)
+    position: relative
+    width: 110%
+    border-radius: 0px
+    @media (max-width: 1300px)
+      width: 100%
+    @media only screen and (max-width: 1023px)
+      position: relative
+      width: 100%
+      border-radius: 0px
+.bloque-texto-a.color-acento-contenido 
+  background-color: #996702
+  &:before 
+    background-color: #FFDE9A
+
+.bg2
+  background-color: #F0ECE9
+  border-radius: 14px
+
+.bg3
+  background-color: #6C4826
+  border-radius: 20px 0px 0px 20px
+  @media only screen and (max-width: 767px)
+    border-radius: 20px
+.bg4
+  background-color: #FFAC04
+  border-radius: 0px 20px 20px 0px
+  @media only screen and (max-width: 767px)
+    border-radius: 20px
+
+.fondo1
+  background: url('../assets/curso/tema1/fondo1.png')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem
+  @media screen and (max-width: 767px)
+    margin-inline: -2.4rem
+    margin-right: -2rem
+    margin-left: -2rem
+    background-size:  100% 100%
+
+.acordion__accion__btn--b
+  background-color: #D60033
+  transition: all 0.3s ease-out
+  border: #D60033
+  color: white
+.acordion__activo
+  background-color: #FFF7E5!important
+  transition: all 0.3s ease-out
+.tarjeta--grey
+    border-radius: 20px
+    background-color: #F3F9EF
+.acordion.press .acordion__activo .acordion__accion__btn--b
+  background-color: #402B16
+  color: white
+
+.bg5
+  background-color: #F3F9EF
+  border-radius: 10px
+
+.bg6
+  background-color: #8CBF62
+.tarjeta-audio.color-acento-botones .tarjeta-audio__texto 
+  color: $black
+  font-style: normal !important
+.tarjeta-audio.color-acento-botones
+  border-color: #D60033
+.tarjeta-audio 
+  border: 3px solid;
+  padding: 1.65em 0.7em 0.7em 1.5em;
+  border-radius: 30px;
+  min-height: 100px;
+.audio.color-acento-contenido .audio__btn, .tarjeta-audio.color-acento-contenido .audio__btn, .tarjeta-dialogo.color-acento-contenido .audio__btn 
+  background-color: #D60033
+.tarjeta-audio.color-acento-botones .tarjeta-audio__input input[type=range] 
+  background: #BFC0DC
+
+.bloque-texto-g.color-secundario 
+  background-color: #FFDE9A
+
+.tarjetaf
+  background: url('../assets/curso/tema1/fondo2.png')
+  background-size: 100% 100% 
+  background-repeat: no-repeat
+  background-position: center
+  border-radius: 20px
+  overflow: hidden
+  transition: transform 0.3s ease
+  -webkit-mask-image: -webkit-radial-gradient(white, black)
+  backface-visibility: hidden  
+  transform: translateZ(0) 
+  & > *
+    border-radius: inherit
+@media (max-width: 991px)
+  .tarjetaf
+    border-radius: 20px
+@media (max-width: 575px)
+  .tarjetaf
+    border-radius: 20px
+.slyder-a__bullets__item 
+  background-color: #C4B5A8
+  border-color: #C4B5A8
+.slyder-a__bullets__item--active 
+  background-color: #D60033 !important
+  border-color: #D60033!important
+.slyder-a__tipo-b .slyder-a__btn--sigt 
+  content: url('../assets/curso/tema3/der.png')
+  transform: rotate(0deg)
+  right: 15px
+.slyder-a__tipo-b .slyder-a__btn--atrs 
+  content: url('../assets/curso/tema3/izq.png')
+  transform: rotate(0deg)
+  left: 15px
+
+.bg7
+  background-color: #F0ECE9
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem
+  @media screen and (max-width: 767px)
+    margin-inline: -2.4rem
+    margin-right: -2rem
+    margin-left: -2rem
+    background-size:  100% 100%
+
+@media (min-width: 1200px) 
+  .clp
+    .col-xl-3
+        flex: 0 0 auto
+        width: 22%
+@media (min-width: 1200px) 
+  .clp
+    .col-xl-9
+      flex: 0 0 auto
+      width: 78%
+.color-acento-botones
+  .tabs-a__tab
+    padding: 15px 15px
+    font-size: 16px  
+    white-space: normal 
+    line-height: 1.3
+    min-height: 60px 
+    @media (max-width: 992px)
+      padding: 12px 15px
+      font-size: 16px
+      min-height: 50px
+    @media (max-width: 576px)
+      padding: 10px 15px
+      font-size: 16px
+      min-height: 45px
+      line-height: 1.2
+.tabs-a__tab:last-child 
+  margin-bottom: 0 !important
+  background-color: #D60033
+  color: white
+.color-a
+  background-color: #F3F9EF
+.tabs-a.color-acento-botones .tabs-a__tab__selected 
+    background-color: #8CBF62 !important
+    color: black !important
+.tabs-a.color-acento-botones .tabs-a__tab__selected:before 
+    background-color: #8CBF62 !important
+
+.fa-circle-check
+  color: #6C4826
+
+
+/////////////////////////////////TEMA2/////////////////////////////////
+
+.fondo3
+  background: url('../assets/curso/tema2/fondo3.png')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem
+  @media screen and (max-width: 767px)
+    margin-inline: -2.4rem
+    margin-right: -2rem
+    margin-left: -2rem
+    background-size:  100% 100%
+
+.titulo
+  background-color: #F0ECE9
+  border-radius: 10px 
+  width: fit-content
+  padding: 8px 20px 8px 75px
+  position: relative
+  display: inline-flex
+  align-items: center
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    padding: 8px 20px 8px 65px
+.titulo img
+  width: 63px
+  height: 63px
+  position: absolute
+  top: 50%
+  left: 0px 
+  transform: translateY(-50%)
+  object-fit: contain
+  z-index: 1
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    width: 55px
+    height: 55px
+  @media only screen and (max-width: 767px)
+    width: 55px
+    height: 55px
+
+.tabs-c.color-primario .tabs-c__tab--active 
+  background-color: white
+  font-weight: 900
+.tabs-c__tab 
+  background-color: #FFF7E5
+  border-bottom: 6px solid #E8E8E8
+.tabs-c.color-primario .tabs-c__tab--active 
+  border-bottom-color: #D60033 !important
+  background-color: #F3F9EF
+.tabs-c.color-primario .tabs-c__tab--active:before 
+  border-top-color: #D60033
+.tabs-c__tab--active 
+  border-bottom: 6px solid !important
+.tabs-c__header 
+  margin-bottom: -7px
+.tabs-c__tab:after 
+  width: 2.5px
+  height: 25px
+  top: 50%
+  right: -2px
+  background-color: #6C4826
+.bg8
+  background-color: #F3F9EF
+
+
+/////////////////////////////////TEMA3/////////////////////////////////
+
+.bg9
+  background-color: #92CFD9
+
+.bg10
+  background-color: #F0ECE9
+  border-radius: 14px
+
+.bloque-texto-g.color-acento-contenido 
+  background-color: #C4B5A8
+
+.alig
+  display: flex
+  justify-content: center
+  align-items: center
+
+.sub
+  background-color: #F0ECE9
+  border-radius: 0px 10px 10px 0px
+  width: fit-content
+  @media only screen and (max-width: 767px)
+    border-radius: 15px
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    border-radius: 15px
+.titu
+  margin-bottom: 0px
+  border-left: 11px solid  #6C4826 !important
+  padding: 23px 0px 15px 0px
+  border-radius: 0px
+  @media only screen and (max-width: 767px)
+    display: none
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    display: none
+
+
+
+/////////////////////////////////TEMA5/////////////////////////////////
+
+.pasos-a__linea__esquina__linea 
+    border: 3px solid
+    width: 100%
+    position: relative
+    border-radius: 0px
+.pasos-a.color-primario .pasos-a__circle 
+    background-color: #6C4826
+.pasos-a.color-primario .pasos-a__circle div 
+    color: white
+.pasos-a.color-primario .pasos-a__numero::after
+    border-left-color: #6C4826
+.pasos-a.color-primario .pasos-a__linea .hor-line 
+    border-top-color: #6C4826
+.pasos-a.color-primario .pasos-a__linea__esquina__linea 
+    border-color:#6C4826
+@media only screen and (max-width: 767px)
+  .cel
+    display: none
+@media only screen and (min-width: 768px) and (max-width: 1023px)
+  .cel
+    display: none
+
+.linea-tiempo-d.color-secundario .linea-tiempo-d__item--selected .linea-tiempo-d__item__content 
+    background-color: #FFF7E5
+    padding: 15px
+.linea-tiempo-d .tarjeta 
+    border-radius: 5px
+.tarjeta--gris  
+    background-color: #F3F9EF
+.linea-tiempo-d.color-secundario.activo .linea-tiempo-d__item--selected .linea-tiempo-d__item__number 
+    background-color:#D60033
+    color: white !important
+.linea-tiempo-d.color-secundario.activo .linea-tiempo-d__item__number 
+    background-color: #F3F9EF
+@media only screen and (max-width: 767px)
+  .linea-tiempo-d.color-acento-boton .linea-tiempo-d__item--selected .linea-tiempo-d__item__content 
+    padding: 1rem
+  .linea-tiempo-d .tarjeta 
+    border-radius: 5px
+    padding: 0.8rem
+@media only screen and (min-width: 768px) and (max-width: 1023px)
+  .linea-tiempo-d.color-acento-boton .linea-tiempo-d__item--selected .linea-tiempo-d__item__content 
+    padding: 0.5rem
+@media only screen and (min-width: 1024px) and (max-width: 1439px)
+  .linea-tiempo-d.color-acento-boton .linea-tiempo-d__item--selected .linea-tiempo-d__item__content 
+    padding: 0.5rem
+
+
+.bg11
+  background-color: #FFDE9A
+
+.bgw
+  background-color: white
+
+
+//////////////////////////////////////TABLAS////////////////////////////////////
+
+.tabla-a thead 
+  border-top: none
+  color: white
+  background-color: #6C4826
+.tabla-a th
+  border-color: #6C4826
+.tabla-a
+  table
+    width: 100%
+    table-layout: auto
+    th, td
+      overflow-wrap: break-word
+      white-space: normal
+      vertical-align: top
+      text-align: left
+      border: none
+  table th
+    padding: 18px 15px
+  table td 
+    padding: 18px 15px
+
+.tabla-a.tab1
+  tbody
+    //td:first-child
+      font-weight: bold
+    td
+      border-left: 2.5px solid #e0e0e0
+    td:first-child
+      border-left: none
+  th:nth-child(1)
+    width: 20%
+  th:nth-child(2)
+    width: 80%
+.bgr
+  background-color: #F0ECE9
+
+.tabla-a.tab2
+  tbody
+    //td:first-child
+      font-weight: bold
+    td
+      border-left: 2.5px solid #e0e0e0
+    td:first-child
+      border-left: none
+  th:nth-child(1)
+    width: 18%
+  th:nth-child(2)
+    width: 22%
+  th:nth-child(3)
+    width: 35%
+  th:nth-child(4)
+    width: 25%
+
+.tabla-a.tab3
+  tbody
+    //td:first-child
+      font-weight: bold
+    td
+      border-left: 2.5px solid #e0e0e0
+    td:first-child
+      border-left: none
+  th:nth-child(1)
+    width: 28%
+  th:nth-child(2)
+    width: 32%
+  th:nth-child(3)
+    width: 40%
+
+
+.tabla-a.tabla-peq
+  overflow-x: visible !important
+  overflow: visible !important
+  @media (max-width: 991px)
+    overflow-x: auto !important
+    -webkit-overflow-scrolling: touch !important
+    display: block !important
+  table
+    min-width: auto !important
+    width: 100% !important
+    table-layout: auto !important
+    @media (max-width: 991px)
+      min-width: 500px !important 
+  tbody
+    td
+      border-left: 2.5px solid #e0e0e0
+      padding: 0.55rem 0.75rem !important
+    td:first-child
+      border-left: none
+  thead
+    th
+      padding: 1rem 0.75rem !important
+
+.tabla-a.tabla-peq.tab4
+  th:nth-child(1)
+    width: 8%
+  th:nth-child(2)
+    width: 28%
+  th:nth-child(3)
+    width: 18%
+  th:nth-child(4)
+    width: 22%
+  th:nth-child(5)
+    width: 24%
+
+.tabla-a.tabla-peq.tab5
+  th:nth-child(1)
+    width: 8%
+  th:nth-child(2)
+    width: 25%
+  th:nth-child(3)
+    width: 15%
+  th:nth-child(4)
+    width: 17%
+  th:nth-child(5)
+    width: 35%
