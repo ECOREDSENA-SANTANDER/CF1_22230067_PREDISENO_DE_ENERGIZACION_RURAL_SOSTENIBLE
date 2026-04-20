@@ -31,7 +31,7 @@
                     p.mb-0 Ubicación geográfica, demografía y características culturales de la comunidad.
                   li.d-flex.mb-0
                     i.fas.fa-circle-check
-                    p.mb-0 Resultados del diagnóstico social (Punto 2): inclusión del mapeo de actores clave y la validación comunitaria del proyecto.
+                    p.mb-0 Resultados del diagnóstico social: inclusión del mapeo de actores clave y la validación comunitaria del proyecto.
           .tarjeta.color-a.p-4(titulo="Modelo de Gestión y Operación")
             .row.justify-content-center.align-items-center
               .col-lg-12
@@ -58,7 +58,7 @@
         PasosA.color-primario.mb-0(tipo="l")
           .row.justify-content-center.align-items-center.mb-0
             .col-lg-7
-              h4 Resumen del diagnóstico energético (Punto 3)
+              h4 Resumen del diagnóstico energético
               ul.lista-ul.mb-0
                 li.d-flex.mb-1
                   i.fas.fa-circle-check
@@ -84,7 +84,7 @@
                   p.mb-0 Argumentación basada en recurso disponible (HSP) y la demanda.
           .row.justify-content-center.align-items-center.mb-0
             .col-lg-7.text-start
-              h4 Predimensionamiento de componentes (Punto 4)
+              h4 Predimensionamiento de componentes
               ul.lista-ul.mb-0
                 li.d-flex.mb-1
                   i.fas.fa-circle-check
