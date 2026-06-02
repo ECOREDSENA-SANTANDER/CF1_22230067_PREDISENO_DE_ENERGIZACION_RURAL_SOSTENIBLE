@@ -7,7 +7,7 @@
     .row.justify-content-center(data-aos="fade-right")
       .col-lg-12.mb-5
         figure
-          img(src="@/assets/curso/sintesis.png", alt="Mapa conceptual del diagnóstico social y energético del usuario rural, que integra los fundamentos de la energización rural sostenible, el diagnóstico social comunitario, el análisis de la demanda energética, los principios de predimensionamiento y la viabilidad ambiental inicial.")
+          img(src="@/assets/curso/sintesis.png", alt="Mapa conceptual del diagnóstico social y energético de usuario rural, que integra los fundamentos de la energización rural sostenible, el diagnóstico social comunitario, el análisis de la demanda energética, los principios de predimensionamiento y la viabilidad ambiental inicial.")
       .col-auto
         a.anexo.mb-0(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

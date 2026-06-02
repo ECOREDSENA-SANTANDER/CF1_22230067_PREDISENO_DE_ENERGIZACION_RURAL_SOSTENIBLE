@@ -189,7 +189,7 @@ export default {
     {
       termino: 'IPSE',
       significado:
-        'Instituto de Planificación y Promoción de Soluciones Energéticas para las zonas no interconectadas.',
+        ' Instituto de Planificación y Promoción de Soluciones Energéticas para las zonas no interconectadas.',
     },
     {
       termino: 'Modelo de gestión y operación',
@@ -255,7 +255,8 @@ export default {
       autores: [
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Responsable del ecosistema',
+          cargo:
+            'Responsable Ecosistema de Recursos Educativos Digitales (RED)',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {

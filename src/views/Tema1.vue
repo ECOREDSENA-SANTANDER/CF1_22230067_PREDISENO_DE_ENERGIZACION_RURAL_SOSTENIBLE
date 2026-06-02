@@ -142,14 +142,14 @@
             .tarjeta.bg6.p-4.rounded-0.h-100
               .tarjeta.bg-white.p-4.p-lg-5.h-100
                 TarjetaAudio.color-acento-botones.mb-0(
-                texto="<em>Podcast</em>: hablemos de energización rural y pobreza energética"
+                texto="<em>Podcast</em>: concepto de pobreza energética y el rol de las entidades en Colombia"
                 :audio="require('@/assets/actividad/audio/Podcast_CF1_22230067_Prediseno_de_energizacion_rural_sostenible.mp3')"
             )
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                 
     separador
     #t_1_2.titulo-segundo.mb-5
-      h2 1.2 Marco Institucional Colombiano (ZNI)
+      h2 1.2 Marco Institucional Colombiano
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
