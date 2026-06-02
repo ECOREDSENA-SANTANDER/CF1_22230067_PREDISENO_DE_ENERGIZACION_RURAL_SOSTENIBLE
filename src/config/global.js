@@ -51,7 +51,7 @@ export default {
           },
           {
             numero: '1.2',
-            titulo: 'Marco Institucional Colombiano (ZNI)',
+            titulo: 'Marco Institucional Colombiano',
             hash: 't_1_2',
           },
           {
