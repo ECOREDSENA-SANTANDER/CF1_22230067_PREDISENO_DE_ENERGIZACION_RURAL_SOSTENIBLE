@@ -11,7 +11,7 @@
       .col-lg-12
         .bloque-texto-g.color-secundario.p-3.p-lg-5.p-md-4
           .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/tema3/1.png')})`}", alt='Imagen decorativa.'
+            :style="{'background-image': `url(${require('@/assets/curso/tema3/1.png')})`}"
           )
           .bloque-texto-g__texto.p-lg-5.p-md-4.p-4
             p.mb-0 El error más común y crítico en la fase de prediseño de sistemas de Energización Rural Sostenible (ERS) es confundir la potencia (W) con la energía (Wh). Para dimensionar correctamente un sistema aislado (módulos, baterías, controlador), el valor absoluto que debe obtenerse del diagnóstico es la energía consumida en un ciclo de 24 horas, expresada en vatio-hora por día (Wh/día).
@@ -52,7 +52,7 @@
         .bg2.p-4.p-lg-5.mb-0
           .row.justify-content-center.align-items.mb-0
             .col-lg-1.d-none.d-lg-block
-              img(src='@/assets/curso/tema3/3.svg', alt='')
+              img(src='@/assets/curso/tema3/3.svg')
             .col-lg-11
               ul.lista-ul.mb-0
                 li.d-flex.mb-0
@@ -65,7 +65,7 @@
                   i.fas.fa-circle-check
                   p.mb-0 #[b T_uso diario (horas):] es el tiempo promedio de uso diario del aparato, dato que se obtiene mediante las encuestas socioenergéticas (diagnóstico social).
       .col-lg-4.d-none.d-lg-block
-        img(src='@/assets/curso/tema3/2.png', alt='')
+        img(src='@/assets/curso/tema3/2.png')
 
     p.mb-5(data-aos="fade-left") #[b El cálculo de la demanda total diaria es la métrica de partida para el dimensionamiento:]
   
@@ -85,7 +85,7 @@
       .col-lg-12
         .bloque-texto-g.color-acento-contenido.p-3.p-lg-5.p-md-4
           .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/tema3/6.png')})`}", alt='Imagen decorativa.'
+            :style="{'background-image': `url(${require('@/assets/curso/tema3/6.png')})`}"
           )
           .bloque-texto-g__texto.p-lg-5.p-md-4.p-4
             H4 Errores comunes a evitar
@@ -107,9 +107,9 @@
         .bg10.p-4.h-100.alig
           p.mb-0 El objetivo de esta fase es traducir los aparatos eléctricos (cargas) que el usuario rural desea utilizar en datos técnicos cuantificables (potencia y uso), lo cual es el primer paso para calcular la demanda de diseño (Wh/día).
       .col-lg-3.h-100.col-md-7.col-10.mb-lg-0.mb-4
-        img(src='@/assets/curso/tema3/7.svg', alt='')
+        img(src='@/assets/curso/tema3/7.svg')
       .col-lg-4
-        img.mb-5.img-t.d-none.d-lg-block(src='@/assets/curso/tema3/8.svg', alt='')
+        img.mb-5.img-t.d-none.d-lg-block(src='@/assets/curso/tema3/8.svg')
         p.mb-0 El inventario debe ser exhaustivo y preciso, utilizando las encuestas socioenergéticas para obtener los datos de la placa del fabricante o, idealmente, mediante la medición en campo con un vatímetro.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
@@ -145,12 +145,12 @@
     .bg7.p-lg-5.p-4.mb-5(data-aos="fade-left")
       .row.justify-content-center.align-items-center.mb-0
         .col-lg-1.col-md-2.col-4
-          img.mb-4.mb-lg-0.mb-md-0(alt="" src="@/assets/curso/tema3/9.svg")
+          img.mb-4.mb-lg-0.mb-md-0(src="@/assets/curso/tema3/9.svg")
         .col-lg-11.col-md-9.col-11
           p.mb-0 #[b Nota crítica:] los aparatos comprados en el mercado local suelen tener etiquetas de potencia poco fiables. La medición con un vatímetro en una situación real de uso (si es posible) es la práctica más recomendada para garantizar la precisión del prediseño.
 
     .titulo.mb-5(data-aos="fade-right")
-      img(:src="require('@/assets/curso/tema2/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema2/sub.svg')")
       h3.mb-0 Clasificación de cargas por tipo de corriente
     
     p.mb-5(data-aos="fade-left") La clasificación es fundamental porque determina la topología del sistema Fotovoltaico (FV) aislado (#[em Off - Grid]). Las cargas se dividen en dos categorías principales:
@@ -163,7 +163,7 @@
               .col-lg-12
                 .row.justify-content-center.align-items-start.my-lg-0.my-4
                   .col-lg-5.col-md-8.col-10.mb-lg-0.mb-4
-                    img(src='@/assets/curso/tema3/10.png', alt='')
+                    img(src='@/assets/curso/tema3/10.png')
                   .col-lg-7
                     ul.lista-ul.mb-0
                       li.d-flex.mb-0
@@ -180,7 +180,7 @@
               .col-lg-12
                 .row.justify-content-center.align-items-start.my-lg-0.my-4
                   .col-lg-5.col-md-8.col-10.mb-lg-0.mb-4
-                    img(src='@/assets/curso/tema3/11.png', alt='')
+                    img(src='@/assets/curso/tema3/11.png')
                   .col-lg-7
                     ul.lista-ul.mb-0
                       li.d-flex.mb-0
@@ -194,7 +194,7 @@
                         p.mb-0 #[b Requisito:] requieren un inversor (DC / AC) para convertir la energía almacenada en las baterías a corriente alterna. Este componente introduce una pérdida de eficiencia que debe ser considerada en los cálculos (factor del 85 % al 95 %).
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema2/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema2/sub.svg')")
       h3.mb-0 Clasificación de cargas por prioridad
     
     p.mb-5(data-aos="fade-right") Para sistemas con limitaciones presupuestarias (la mayoría en ERS), la priorización es una herramienta de gestión de expectativas y de riesgo:
@@ -214,7 +214,7 @@
     .bg7.p-lg-5.p-4.mb-0(data-aos="fade-right")
       .row.justify-content-center.align-items-center.mb-0
         .col-lg-1.col-md-2.col-4
-          img.mb-4.mb-lg-0.mb-md-0(alt="" src="@/assets/curso/tema3/14.svg")
+          img.mb-4.mb-lg-0.mb-md-0(src="@/assets/curso/tema3/14.svg")
         .col-lg-11.col-md-9.col-11
           p.mb-0 Esta clasificación ayuda a dimensionar el sistema: se dimensiona el sistema para cubrir las cargas críticas siempre, y las cargas secundarias solo si el recurso y el presupuesto lo permiten.
 
@@ -225,7 +225,7 @@
     p.mb-5(data-aos="fade-left") Una vez que se ha realizado el inventario y se ha calculado la energía diaria (Wh/día) para cada aparato, es necesario entender cuándo se consume esa energía. Esto se logra mediante la elaboración de la curva de demanda o perfil de carga.
 
     .titulo.mb-5(data-aos="fade-right")
-      img(:src="require('@/assets/curso/tema2/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema2/sub.svg')")
       h3.mb-0 Propósito de la curva de demanda
 
     p.mb-5(data-aos="fade-left") La curva de demanda es la representación gráfica de la potencia total demandada por la comunidad o el hogar a lo largo de un ciclo de 24 horas. Sus dos funciones principales son:
@@ -269,19 +269,19 @@
                 h4.mb-4 Parámetro crítico, potencia máxima instantánea (Ppico)
                 p.mb-4 El punto más alto de la curva de demanda corresponde a la potencia Máxima Instantánea (Ppico). Este valor representa el mayor nivel de potencia requerido en un momento específico del día y, en contextos rurales, suele presentarse en horas de la tarde y noche, generalmente entre las 6:00 p. m. y las 9:00 p. m., cuando se encienden las luminarias y se utilizan equipos como televisores o electrodomésticos asociados a la preparación de alimentos.
               .col-lg-5.col-md-8.col-10
-                img.mb-0(alt="" src="@/assets/curso/tema3/16.png")
+                img.mb-0(src="@/assets/curso/tema3/16.png")
             .row.justify-content-center.align-items-center.p-0.p-lg-4
               .col-lg-6.mb-lg-0.mb-4
                 h4.mb-4 Impacto de la Ppico en el dimensionamiento del inversor
                 p.mb-4 La potencia máxima instantánea tiene una incidencia directa en la selección del inversor. Este equipo debe contar con una capacidad nominal igual o superior a la Ppico estimada, además de incorporar un margen adicional para soportar picos de arranque de ciertos equipos, como motores de refrigeración. Un inversor subdimensionado puede generar fallas, apagados inesperados o interrupciones del servicio en los momentos de mayor demanda.
               .col-lg-5.col-md-8.col-10
-                img.mb-0(alt="" src="@/assets/curso/tema3/17.png")
+                img.mb-0(src="@/assets/curso/tema3/17.png")
             .row.justify-content-center.align-items-center.p-0.p-lg-4
               .col-lg-6.mb-lg-0.mb-4
                 h4.mb-4 De la potencia al consumo energético diario
                 p.mb-4 La energía total consumida durante el día se obtiene a partir del área bajo la curva de demanda. Este valor resulta de la suma de las potencias registradas en cada intervalo de tiempo, multiplicadas por la duración del mismo, que normalmente es de una hora. Este procedimiento permite calcular la demanda energética diaria total, expresada en Wh/día, y validar los resultados obtenidos mediante el cálculo individual del consumo de los aparatos.
               .col-lg-5.col-md-8.col-10
-                img.mb-0(alt="" src="@/assets/curso/tema3/18.png")
+                img.mb-0(src="@/assets/curso/tema3/18.png")
           
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-auto.ps-lg-3.pe-lg-0.ps-0.pe-0
@@ -292,7 +292,7 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-1.col-md-2.col-4
-        img.mb-4.mb-lg-0(alt="" src="@/assets/curso/tema3/19.svg")
+        img.mb-4.mb-lg-0(src="@/assets/curso/tema3/19.svg")
       .col-lg-11.col-md-10
         p.mb-0 Como aplicación de los conceptos anteriores, se desarrolla un estudio de caso correspondiente al hogar rural “La Esperanza”. En este escenario se realiza un diagnóstico socioenergético a una vivienda que solicita la implementación de un Sistema Solar Fotovoltaico Aislado (SHS), con el objetivo de mejorar sus condiciones de vida mediante un acceso confiable y sostenible a la energía eléctrica.
 

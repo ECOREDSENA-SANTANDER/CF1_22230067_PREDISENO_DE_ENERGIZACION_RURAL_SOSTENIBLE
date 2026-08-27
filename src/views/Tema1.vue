@@ -14,15 +14,15 @@
             .bloque-texto-a__texto.p-lg-5.p-4
               p.mb-0(data-aos="fade-left") El estudio de los fundamentos de la energización rural sostenible y de las zonas no interconectadas permite comprender los principios que orientan el acceso a la energía en territorios rurales que no cuentan con conexión al sistema interconectado nacional. Este enfoque integra criterios técnicos, sociales, económicos y ambientales, con el propósito de garantizar soluciones energéticas confiables, eficientes y sostenibles en el tiempo. Asimismo, considera las particularidades geográficas, demográficas y culturales de las comunidades rurales, reconociendo la energía como un factor clave para el desarrollo social, productivo y la mejora de la calidad de vida.
           .col-lg-4.col-md-6.mb-0
-            img.enc.img-a(src='@/assets/curso/tema1/1.png', alt='')
+            img.enc.img-a(src='@/assets/curso/tema1/1.png')
     
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
       .col-lg-5.d-none.d-lg-block
-        img(src='@/assets/curso/tema1/2.png', alt='')
+        img(src='@/assets/curso/tema1/2.png')
       .col-lg-7
         .row.justify-content
           .col-lg-2.col-md-2
-            img.img-t.img-a.mb-lg-0.mb-4(src='@/assets/curso/tema1/3.svg', alt='')
+            img.img-t.img-a.mb-lg-0.mb-4(src='@/assets/curso/tema1/3.svg')
           .col-lg-10.col-md-10
             p.mb-0 En este tema se analizan las diferentes formas en que la energía se manifiesta y se utiliza en diversos contextos rurales, así como las fuentes disponibles para su aprovechamiento. La comprensión de esta clasificación resulta esencial para identificar los patrones de consumo energético, caracterizar las necesidades reales de los usuarios y seleccionar de manera adecuada los indicadores de gestión energética. De esta forma, se fortalecen las capacidades para la toma de decisiones informadas y la formulación de proyectos de energización rural alineados con criterios de sostenibilidad y eficiencia.
 
@@ -35,9 +35,9 @@
         .bg2.p-4.mb-lg-0.mb-4
           p.mb-0 La pobreza energética es un fenómeno de carácter multidimensional que trasciende la simple ausencia de conexión a la red eléctrica. Se define como la condición en la cual los hogares o las comunidades no logran acceder de manera adecuada a los servicios energéticos esenciales, tales como la iluminación, la cocción limpia, la calefacción o refrigeración y el suministro de energía para el uso de dispositivos, bajo criterios de seguridad, asequibilidad y sostenibilidad.
       .col-lg-3.col-md-7.col-10.mb-lg-0.mb-4
-        img(src='@/assets/curso/tema1/4.svg', alt='')
+        img(src='@/assets/curso/tema1/4.svg')
       .col-lg-4
-        img.img-t.mb-4.d-none.d-lg-block(src='@/assets/curso/tema1/5.svg', alt='')
+        img.img-t.mb-4.d-none.d-lg-block(src='@/assets/curso/tema1/5.svg')
         p.mb-0 En el contexto colombiano, la pobreza energética se manifiesta de forma particular en las Zonas No Interconectadas (ZNI), donde las limitaciones de acceso, calidad y continuidad del servicio energético afectan de manera directa las condiciones de vida, el desarrollo social y las oportunidades productivas de las comunidades rurales.
     
     p.mb-5(data-aos="fade-left") En el contexto colombiano, la pobreza energética se manifiesta principalmente en dos formas en las ZNI:
@@ -113,11 +113,11 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-5.d-none.d-lg-block
-        img(src='@/assets/curso/tema1/10.png', alt='')
+        img(src='@/assets/curso/tema1/10.png')
       .col-lg-7
         .row.justify-content-center.align-items-center.mb-4
           .col-lg-2.col-md-2
-            img.img-a.img-t.mb-lg-0.mb-4.mb-md-0(src='@/assets/curso/tema1/11.svg', alt='')
+            img.img-a.img-t.mb-lg-0.mb-4.mb-md-0(src='@/assets/curso/tema1/11.svg')
           .col-lg-10.col-md-10
             p.mb-0 El programa de energización rural sostenible se justifica plenamente como la respuesta directa y estratégica a este problema. La solución es el prediseño y la estructuración de proyectos con FNCER porque:
         .bg5.p-4.p-lg-5
@@ -136,7 +136,7 @@
 
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
       .col-lg-12
-        img(src='@/assets/curso/tema1/12.png', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/tema1/12.png')
         .row.justify-content-center.g-0
           .col-lg-12
             .tarjeta.bg6.p-4.rounded-0.h-100
@@ -155,7 +155,7 @@
       .col-lg-12
         .bloque-texto-g.color-secundario.p-3.p-lg-5.p-md-4
           .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/tema1/13.png')})`}", alt='Imagen decorativa.'
+            :style="{'background-image': `url(${require('@/assets/curso/tema1/13.png')})`}"
           )
           .bloque-texto-g__texto.p-lg-5.p-md-4.p-4
             p.mb-0 El éxito de un proyecto de Energización Rural Sostenible (ERS) en Colombia depende, en gran medida, de su adecuada articulación con el andamiaje institucional y financiero diseñado específicamente para las Zonas No Interconectadas (ZNI). En este contexto, los profesionales formados en este programa deben conocer y comprender los roles de las entidades que intervienen en la planificación, regulación, financiación y supervisión de los proyectos, con el fin de gestionar de manera efectiva la viabilidad técnica, económica, social y ambiental de sus propuestas.
@@ -173,7 +173,7 @@
                     i.fas.fa-circle-check
                     p.mb-0 #[b Rol en el programa:] el IPSE actúa como el principal receptor y evaluador de las propuestas de proyectos. La prefactibilidad integral que se desarrolla en el proceso formativo debe cumplir con los lineamientos metodológicos y técnicos establecidos por esta entidad para la elegibilidad y la cofinanciación. El IPSE prioriza proyectos técnicamente sólidos, ambientalmente responsables y con modelos de gestión social que aseguren su sostenibilidad en el tiempo.
               .col-lg-5.col-md-8.col-10
-                img.mb-0(alt="" src="@/assets/curso/tema1/14.png")
+                img.mb-0(src="@/assets/curso/tema1/14.png")
             .row.justify-content-center.align-items-center.p-0.p-lg-4
               .col-lg-6.mb-lg-0.mb-4
                 h4.mb-4 El Fondo de Apoyo Financiero para la Energización de las ZNI (FAZNI)
@@ -183,7 +183,7 @@
                     i.fas.fa-circle-check
                     p.mb-0 #[b Rol en el programa:] la existencia del FAZNI resalta la importancia de la formalización de los proyectos. La prefactibilidad no se limita a un documento técnico, sino que constituye la herramienta fundamental que permite a los gestores, como empresas, cooperativas o entidades territoriales, postularse para acceder a estos recursos. Un proyecto bien estructurado, con viabilidades claramente definidas, presenta una ventaja significativa para la obtención del apoyo financiero del FAZNI.
               .col-lg-5.col-md-8.col-10
-                img.mb-0(alt="" src="@/assets/curso/tema1/15.png")
+                img.mb-0(src="@/assets/curso/tema1/15.png")
             .row.justify-content-center.align-items-center.p-0.p-lg-4
               .col-lg-6.mb-lg-0.mb-4
                 h4.mb-4 La Comisión de Regulación de Energía y Gas (CREG)
@@ -193,7 +193,7 @@
                     i.fas.fa-circle-check
                     p.mb-0 #[b Rol en el programa:] la CREG incide de manera directa en la viabilidad técnica y económica de los proyectos de ERS. El prediseño debe considerar los límites de potencia máxima y los esquemas tarifarios definidos para las ZNI. El conocimiento y la correcta aplicación de esta normativa resultan fundamentales para garantizar que el modelo de operación propuesto en la prefactibilidad se ajuste al marco legal vigente en Colombia.
               .col-lg-5.col-md-8.col-10
-                img.mb-0(alt="" src="@/assets/curso/tema1/16.png")
+                img.mb-0(src="@/assets/curso/tema1/16.png")
             .row.justify-content-center.align-items-center.p-0.p-lg-4
               .col-lg-6.mb-lg-0.mb-4
                 h4.mb-4 La Superintendencia de Servicios Públicos Domiciliarios (Superservicios)
@@ -203,7 +203,7 @@
                     i.fas.fa-circle-check
                     p.mb-0 #[b Rol en el programa:] esta entidad se relaciona directamente con la competencia orientada al control de los sistemas de gestión. En este sentido, la prefactibilidad debe proponer un modelo de gestión sólido, transparente y coherente, dado que dicho modelo será objeto de seguimiento por parte de la Superservicios. Un diseño inadecuado del modelo de gestión puede derivar en sanciones regulatorias o en dificultades operativas que comprometan la sostenibilidad del proyecto a largo plazo.
               .col-lg-5.col-md-8.col-10
-                img.mb-0(alt="" src="@/assets/curso/tema1/17.png")
+                img.mb-0(src="@/assets/curso/tema1/17.png")
 
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
       .col-lg-6
@@ -220,7 +220,7 @@
     .bg7.p-lg-5.p-4.mb-5(data-aos="fade-right")
       .row.justify-content-center.align-items-center.mb-0
         .col-lg-1.col-md-2.col-4
-          img.mb-4.mb-lg-0(alt="" src="@/assets/curso/tema1/19.svg")
+          img.mb-4.mb-lg-0(src="@/assets/curso/tema1/19.svg")
         .col-lg-11.col-md-9.col-11
           p.mb-0 Las Fuentes No Convencionales de Energía Renovable (FNCER) son aquellas que provienen de recursos que no se agotan y cuya explotación tecnológica y comercial es reciente o está en desarrollo. En el contexto de la Energización Rural Sostenible (ERS), las FNCER son la alternativa técnica más viable, eficiente y limpia para las Zonas No Interconectadas (ZNI).
 
@@ -284,6 +284,7 @@
                     p.mb-0 #[b Pequeñas y micro centrales hidroeléctricas (PCH):] ideales para comunidades cercanas a cursos de agua con caudales estables. Son fuentes de energía firme (24/7), pero requieren una inversión inicial y un impacto ambiental mayor que el FV.
 
     p.mb-0(data-aos="fade-right") El conocimiento de estas tecnologías permite al futuro profesional identificar la solución FNCER más apropiada para la comunidad, un paso crucial en la fase de diagnóstico y prediseño del proyecto.
+
 
 </template>
 

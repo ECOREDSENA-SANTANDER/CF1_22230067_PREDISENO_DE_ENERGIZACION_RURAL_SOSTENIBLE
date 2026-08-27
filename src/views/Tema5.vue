@@ -9,12 +9,12 @@
     
     .row.mb-5(data-aos="fade-right")          
       .col-lg-12
-        img(src='@/assets/curso/tema5/1.png' alt='AvatarTop')
+        img(src='@/assets/curso/tema5/1.png')
 
     p.mb-5(data-aos="fade-left") La prefactibilidad integral es un documento técnico económico formal que consolida los hallazgos del diagnóstico y el prediseño para determinar si el proyecto de Energización Rural Sostenible (ERS) es viable antes de invertir en la ingeniería de detalle (fase de factibilidad). Su estructura debe ser coherente con los requisitos de entidades financiadoras como el IPSE y el FAZNI en Colombia.
 
     .titulo.mb-5(data-aos="fade-right")
-      img(:src="require('@/assets/curso/tema2/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema2/sub.svg')")
       h3.mb-0 Componente social y legal (viabilidad social)
 
     p.mb-5(data-aos="fade-left") Esta sección demuestra que el proyecto es necesario, aceptado y que cuenta con un marco legal para su operación futura.
@@ -48,7 +48,7 @@
                 p.mb-0 Verificación de la propiedad del predio donde se instalarán los equipos y existencia de acuerdos de servidumbre (si aplica).
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema2/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema2/sub.svg')")
       h3.mb-0 Componente técnico (viabilidad técnica)
 
     p.mb-4(data-aos="fade-right") Aquí se justifican las soluciones tecnológicas y se demuestra que el prediseño es robusto y cumple con la normativa.
@@ -68,11 +68,11 @@
                   p.mb-0 Presentación de la curva de demanda y la potencia Máxima Instantánea (PPico).
             .col-lg-5.cel
               figure
-                img(src='@/assets/curso/tema5/2.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema5/2.png')
           .row.justify-content-center.align-items-center.mb-0
             .col-lg-5.cel
               figure
-                img(src='@/assets/curso/tema5/3.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema5/3.png')
             .col-lg-7.text-start
               h4 Selección y justificación tecnológica
               ul.lista-ul.mb-0
@@ -97,11 +97,11 @@
                   p.mb-0 Selección preliminar del inversor y controlador de carga.
             .col-lg-5.cel
               figure
-                img(src='@/assets/curso/tema5/4.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema5/4.png')
           .row.justify-content-center.align-items-center.mb-0
             .col-lg-5.cel
               figure
-                img(src='@/assets/curso/tema5/5.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema5/5.png')
             .col-lg-7.text-start
               h4 Especificaciones técnicas preliminares
               ul.lista-ul.mb-0
@@ -116,7 +116,7 @@
                   p.mb-0 Baja demanda dispersa: sistema individual.
             
     .titulo.mb-5(data-aos="fade-right")
-      img(:src="require('@/assets/curso/tema2/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema2/sub.svg')")
       h3.mb-0 Componente económico y financiero (viabilidad económica)
 
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
@@ -156,7 +156,7 @@
             .col-lg-12
               p.mb-0 Resumen de los montos requeridos y la fuente de financiación a la que se postulará.
       .col-lg-4.col-md-7.col-10
-        img(src='@/assets/curso/tema5/6.png', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/tema5/6.png')
 
 </template>
 

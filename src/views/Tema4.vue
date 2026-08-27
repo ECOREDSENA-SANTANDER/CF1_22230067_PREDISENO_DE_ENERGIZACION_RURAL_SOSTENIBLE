@@ -10,12 +10,12 @@
     .bg7.p-lg-5.p-4.mb-5(data-aos="fade-right")
       .row.justify-content-center.align-items-center.mb-0
         .col-lg-1.col-md-2.col-4
-          img.mb-4.mb-lg-0.mb-md-0(alt="" src="@/assets/curso/tema4/1.svg")
+          img.mb-4.mb-lg-0.mb-md-0(src="@/assets/curso/tema4/1.svg")
         .col-lg-11.col-md-9.col-11
           p.mb-0 El prediseño es el proceso de determinar el tamaño preliminar de los componentes del sistema solar fotovoltaico (FV) aislado (#[em Off - Grid]) a partir de la demanda energética diaria y el recurso solar local.
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema2/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema2/sub.svg')")
       h3.mb-0 El factor de seguridad (FS) y pérdidas del sistema
     
     p.mb-5(data-aos="fade-right") Antes de dimensionar cualquier componente, es crucial ajustar la demanda bruta para tener en cuenta las ineficiencias y los riesgos operativos.
@@ -28,7 +28,7 @@
               .col-lg-12
                 .row.justify-content-center.align-items-start.my-lg-0.my-4
                   .col-lg-5.col-md-8.col-10.mb-lg-0.mb-4
-                    img(src='@/assets/curso/tema4/2.png', alt='')
+                    img(src='@/assets/curso/tema4/2.png')
                   .col-lg-7
                     p.mb-4 En un sistema fotovoltaico real, la energía se pierde en cada etapa de conversión. Estas pérdidas deben ser compensadas aumentando la demanda de diseño:
                     ul.lista-ul.mb-0
@@ -46,7 +46,7 @@
               .col-lg-12
                 .row.justify-content-center.align-items-start.my-lg-0.my-4
                   .col-lg-5.col-md-8.col-10.mb-lg-0.mb-4
-                    img(src='@/assets/curso/tema4/3.png', alt='')
+                    img(src='@/assets/curso/tema4/3.png')
                   .col-lg-7
                     p.mb-4 Degradación del módulo: Los paneles solares pierden eficiencia con el tiempo (típicamente se espera una pérdida de 0.5 % a 1 % anual).
                     ul.lista-ul.mb-0
@@ -61,7 +61,7 @@
                         p.mb-0 #[b Imprevisión de demanda:] pequeños aumentos de consumo no previstos en el diagnóstico.
 
     .titulo.mb-5(data-aos="fade-right")
-      img(:src="require('@/assets/curso/tema2/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema2/sub.svg')")
       h3.mb-0 Cálculo de la demanda de diseño (WhD)
     
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
@@ -71,9 +71,9 @@
           .bg8.p-4.mb-lg-3
             h4.mb-0 Demanda de Diseño (WhD) = Demanda Bruta (WhBruta) × (1 + FS)  / (1 − Pérd.)
       .col-lg-3.col-md-7.col-10
-        img.mb-lg-0.mb-4(src='@/assets/curso/tema4/4.svg', alt='')
+        img.mb-lg-0.mb-4(src='@/assets/curso/tema4/4.svg')
       .col-lg-4
-        img.mb-5.img-t.d-none.d-lg-block(src='@/assets/curso/tema4/5.svg', alt='')
+        img.mb-5.img-t.d-none.d-lg-block(src='@/assets/curso/tema4/5.svg')
         p.mb-0 En la práctica, se suele utilizar un factor global de pérdidas que oscila entre el 20 % y el 30 % para dimensionar la matriz solar y el banco de baterías.
 
     separador
@@ -85,7 +85,7 @@
         p.mb-5 El principal insumo para dimensionar la matriz solar es el recurso solar disponible en la ubicación del proyecto.
         .row.justify-content-center.align-items-center.mb-0
           .col-lg-5.pe-lg-0.col-md-7.col-10.mb-lg-0.mb-4
-            img(src='@/assets/curso/tema4/6.svg', alt='')
+            img(src='@/assets/curso/tema4/6.svg')
           .col-lg-7.ps-lg-0.mb-0
             .bg8.p-4
               ul.lista-ul.mb-0.mx-lg-2.mt-lg-1.mb-lg-0
@@ -99,7 +99,7 @@
                   i.fas.fa-circle-check
                   p.mb-0 #[b Criterio de diseño:] para garantizar el suministro durante todo el año, el diseñador utiliza el valor de HSP correspondiente al mes de menor radiación (el mes crítico o peor caso).
       .col-lg-3.d-none.d-lg-block
-        img(src='@/assets/curso/tema4/7.png', alt='')
+        img(src='@/assets/curso/tema4/7.png')
 
     .row.justify-content-center.align-items-stretch.mb-0(data-aos="fade-left")
       .col-lg-5.col-md-6.pe-lg-0.pe-md-0.mb-lg-0.mb-4.mb-md-0
