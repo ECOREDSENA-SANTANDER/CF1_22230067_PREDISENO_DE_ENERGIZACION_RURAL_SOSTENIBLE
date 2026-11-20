@@ -149,7 +149,7 @@
                 
     separador
     #t_1_2.titulo-segundo.mb-5
-      h2 1.2 Marco Institucional Colombiano
+      h2 1.2 Marco institucional colombiano
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
@@ -244,7 +244,7 @@
                   ul.lista-ul.mb-4.mx-4
                     li.d-flex.mb-0
                       i.fas.fa-circle-check
-                      p.mb-0 #[b Modularidad:] los sistemas pueden ser escalados fácilmente, desde pequeños sistemas domésticos (SHS) hasta micro redes.
+                      p.mb-0 #[b Modularidad:] los sistemas pueden ser escalados fácilmente, desde pequeños sistemas domésticos (SHS) hasta microrredes.
                     li.d-flex.mb-0
                       i.fas.fa-circle-check
                       p.mb-0 #[b Bajo mantenimiento:] una vez instalados, los módulos fotovoltaicos requieren un mantenimiento mínimo en comparación con los generadores diésel.
@@ -281,7 +281,7 @@
                     p.mb-0 #[b Eólica (eólica de pequeña escala):] viable solo en zonas rurales con vientos constantes y apropiados. Requiere una evaluación cuidadosa del recurso eólico local.
                   li.d-flex.mb-0
                     i.fas.fa-circle-check
-                    p.mb-0 #[b Pequeñas y micro centrales hidroeléctricas (PCH):] ideales para comunidades cercanas a cursos de agua con caudales estables. Son fuentes de energía firme (24/7), pero requieren una inversión inicial y un impacto ambiental mayor que el FV.
+                    p.mb-0 #[b Pequeñas y microcentrales hidroeléctricas (PCH):] ideales para comunidades cercanas a cursos de agua con caudales estables. Son fuentes de energía firme (24/7), pero requieren una inversión inicial y un impacto ambiental mayor que el FV.
 
     p.mb-0(data-aos="fade-right") El conocimiento de estas tecnologías permite al futuro profesional identificar la solución FNCER más apropiada para la comunidad, un paso crucial en la fase de diagnóstico y prediseño del proyecto.
 

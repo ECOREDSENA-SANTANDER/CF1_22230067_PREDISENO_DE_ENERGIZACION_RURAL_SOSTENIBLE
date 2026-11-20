@@ -42,7 +42,7 @@
                   p.mb-0 #[b Riesgo de fracaso:] históricamente, muchos proyectos de electrificación rural han fracasado no por fallas técnicas, sino por falta de gestión, vandalismo o negligencia, derivados de una baja apropiación social.
                 li.d-flex.mb-0
                   i.fas.fa-circle-check
-                  p.mb-0 #[b Gestión del mantenimiento:] la apropiación asegura que la comunidad participe activamente en el mantenimiento preventivo, el pago de tarifas (si aplica) y el cuidado general de la infraestructura
+                  p.mb-0 #[b Gestión del mantenimiento:] la apropiación asegura que la comunidad participe activamente en el mantenimiento preventivo, el pago de tarifas (si aplica) y el cuidado general de la infraestructura.
       .col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/tema2/5.png')
 
@@ -73,7 +73,7 @@
                   .col-lg-5.col-md-8.col-10.mb-lg-0.mb-4
                     img(src='@/assets/curso/tema2/7.png')
                   .col-lg-7
-                    p.mb-4 Mås allá de preguntar sobre la cantidad de bombillos, las encuestas deben incluir:
+                    p.mb-4 Más allá de preguntar sobre la cantidad de bombillos, las encuestas deben incluir:
                     ul.lista-ul.mb-0
                       li.d-flex.mb-0
                         i.fas.fa-circle-check
@@ -101,7 +101,7 @@
                         p.mb-0 #[b Líderes naturales y cabildos (en zonas indígenas):] su aval y participación son imprescindibles para la legitimidad del proyecto.
                       li.d-flex.mb-0
                         i.fas.fa-circle-check
-                        p.mb-0 #[b Entidades de apoyo locales:] identificar si hay organizaciones locales (ONGs, asociaciones productivas) que puedan apoyar la capacitación.
+                        p.mb-0 #[b Entidades de apoyo locales:] identificar si hay organizaciones locales (ONG, asociaciones productivas) que puedan apoyar la capacitación.
           .bg8.p-lg-5.p-4(titulo="Talleres participativos")
             .row.justify-content-center.align-items-center.mb-0
               .col-lg-12

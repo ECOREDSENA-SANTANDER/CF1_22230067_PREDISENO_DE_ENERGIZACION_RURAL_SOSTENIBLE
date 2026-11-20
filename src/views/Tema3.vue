@@ -34,7 +34,7 @@
                 td #[b Potencia (P)]
                 td Vatio (W) o Kilovatio (kW)
                 td Es la tasa a la que se consume la energía en un instante. Es una medida de la capacidad del aparato.
-                td Determina el tamaño del inversor y el controlador de Carga.
+                td Determina el tamaño del inversor y el controlador de carga.
               tr
                 td.bgr #[b Energía (E)]
                 td.bgr Vatio/hora (Wh) o Kilovatio/hora (kWh)
@@ -96,7 +96,7 @@
             br
             p.mb-0 #[b Subestimación del uso diario:] subestimar el tiempo real de uso (T uso diario) por falta de un diagnóstico social riguroso lleva al colapso del sistema (descarga total de baterías) y a la insatisfacción del usuario.
 
-    p.mb-0(data-aos="fade-right") Por lo tanto, el Wh/día no es solo una unidad de medida, es la demanda energética real que debe satisfacer el proyecto, y es el punto de enlace entre el diagnóstico social y el redimensionamiento técnico.
+    p.mb-0(data-aos="fade-right") Por lo tanto, el Wh/día no es solo una unidad de medida, es la demanda energética real que debe satisfacer el proyecto, y es el punto de enlace entre el diagnóstico social y el predimensionamiento técnico.
 
     separador
     #t_3_1.titulo-segundo.mb-5
@@ -136,7 +136,7 @@
               tr
                 td #[b Voltaje de operación (V)]
                 td Placa de especificaciones (V).
-                td Determina si la carga es DC o AC (12V, 24V, 120V).
+                td Determina si la carga es DC o AC (12 V, 24 V, 120 V).
               tr
                 td.bgr #[b Tiempo de uso diario (T)]
                 td.bgr Encuesta social (Horas/día).
@@ -153,12 +153,12 @@
       img(:src="require('@/assets/curso/tema2/sub.svg')")
       h3.mb-0 Clasificación de cargas por tipo de corriente
     
-    p.mb-5(data-aos="fade-left") La clasificación es fundamental porque determina la topología del sistema Fotovoltaico (FV) aislado (#[em Off - Grid]). Las cargas se dividen en dos categorías principales:
+    p.mb-5(data-aos="fade-left") La clasificación es fundamental porque determina la topología del sistema fotovoltaico (FV) aislado (#[em off-grid]). Las cargas se dividen en dos categorías principales:
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         TabsC.color-primario
-          .bg8.p-lg-5.p-4(titulo="Cargas de Corriente Continua (DC)")
+          .bg8.p-lg-5.p-4(titulo="Cargas de corriente continua (DC)")
             .row.justify-content-center.align-items-center.mb-0
               .col-lg-12
                 .row.justify-content-center.align-items-start.my-lg-0.my-4
@@ -168,14 +168,14 @@
                     ul.lista-ul.mb-0
                       li.d-flex.mb-0
                         i.fas.fa-circle-check
-                        p.mb-0 #[b Definición:] son aparatos que funcionan directamente con el voltaje de la batería del sistema (usualmente 12V, 24V o 48V).
+                        p.mb-0 #[b Definición:] son aparatos que funcionan directamente con el voltaje de la batería del sistema (usualmente 12 V, 24 V o 48 V).
                       li.d-flex.mb-0
                         i.fas.fa-circle-check
                         p.mb-0 #[b Ejemplos típicos:] iluminación LED de bajo consumo, carga directa de celulares (vía puerto USB), algunas neveras de alta eficiencia diseñadas para sistemas solares.
                       li.d-flex.mb-0
                         i.fas.fa-circle-check
                         p.mb-0 #[b Ventaja:] conectarlas directamente al controlador de carga (vía salida DC) elimina la necesidad de un inversor, minimizando las pérdidas por conversión (pérdidas por eficiencia del inversor).
-          .bg8.p-lg-5.p-4(titulo="Cargas de Corriente Alterna (AC)")
+          .bg8.p-lg-5.p-4(titulo="Cargas de corriente alterna (AC)")
             .row.justify-content-center.align-items-center.mb-0
               .col-lg-12
                 .row.justify-content-center.align-items-start.my-lg-0.my-4
@@ -267,7 +267,7 @@
             .row.justify-content-center.align-items-center.p-0.p-lg-4
               .col-lg-6.mb-lg-0.mb-4
                 h4.mb-4 Parámetro crítico, potencia máxima instantánea (Ppico)
-                p.mb-4 El punto más alto de la curva de demanda corresponde a la potencia Máxima Instantánea (Ppico). Este valor representa el mayor nivel de potencia requerido en un momento específico del día y, en contextos rurales, suele presentarse en horas de la tarde y noche, generalmente entre las 6:00 p. m. y las 9:00 p. m., cuando se encienden las luminarias y se utilizan equipos como televisores o electrodomésticos asociados a la preparación de alimentos.
+                p.mb-4 El punto más alto de la curva de demanda corresponde a la potencia máxima instantánea (Ppico). Este valor representa el mayor nivel de potencia requerido en un momento específico del día y, en contextos rurales, suele presentarse en horas de la tarde y noche, generalmente entre las 6:00 p. m. y las 9:00 p. m., cuando se encienden las luminarias y se utilizan equipos como televisores o electrodomésticos asociados a la preparación de alimentos.
               .col-lg-5.col-md-8.col-10
                 img.mb-0(src="@/assets/curso/tema3/16.png")
             .row.justify-content-center.align-items-center.p-0.p-lg-4
@@ -319,33 +319,33 @@
                       td.bgw.text-center #[b 1]
                       td.bgw Bombillos LED (x4)
                       td.bgw 7 (cada uno)
-                      td.bgw DC (12V)
+                      td.bgw DC (12 V)
                       td.bgw 5
                     tr
                       td.bgr.text-center #[b 2]
                       td.bgr Radio/cargador USB
                       td.bgr 10
-                      td.bgr DC (12V)
+                      td.bgr DC (12 V)
                       td.bgr 6
                     tr
                       td.bgw.text-center #[b 3]
                       td.bgw Televisor LED 32"
                       td.bgw 50
-                      td.bgw AC (120V)
+                      td.bgw AC (120 V)
                       td.bgw 3
                     tr
                       td.bgr.text-center #[b 4]
                       td.bgr Nevera eficiente
                       td.bgr 100
-                      td.bgr AC (120V)
+                      td.bgr AC (120 V)
                       td.bgr 8 (tiempo de operación)
                     tr
                       td.bgw.text-center #[b 5]
                       td.bgw Licuadora
                       td.bgw 300
-                      td.bgw AC (120V)
+                      td.bgw AC (120 V)
                       td.bgw 0.25 (15 minutos)
-          .row.justify-content-center.align-items-center.mb-0(numero="2" titulo="Paso 2. Cálculo de la energía diaria (ediaria)")
+          .row.justify-content-center.align-items-center.mb-0(numero="2" titulo="Paso 2. Cálculo de la energía diaria (Ediaria)")
             .col-lg-12
               p.mb-4 Se aplica la fórmula fundamental a cada carga.
               .titulo-sexto.mb-4
@@ -363,10 +363,10 @@
                   tbody
                     tr
                       td.bgw.text-center #[b 1]
-                      td.bgw Iluminación (4x7W)
+                      td.bgw Iluminación (4 x 7W)
                       td.bgw 28
                       td.bgw 5
-                      td.bgw 28x 5= 140
+                      td.bgw 28 x 5= 140
                     tr
                       td.bgr.text-center #[b 2]
                       td.bgr Radio/cargador
@@ -399,11 +399,11 @@
                       td.bgr Ediaria = 1225
           .row.justify-content-center.align-items-center.mb-0(numero="3" titulo="Paso 3. Determinación de la demanda energética total")
             .col-lg-12
-              p.mb-0 La demanda energética diaria bruta del hogar “La esperanza” es de 1225 Wh/día.
+              p.mb-0 La demanda energética diaria bruta del hogar “La Esperanza” es de 1225 Wh/día.
               p.mb-0 Este valor es la base para el dimensionamiento del sistema.
-          .row.justify-content-center.align-items-center.mb-0(numero="4" titulo="Paso 4. Identificación de la potencia máxima instantánea (PPico)")
+          .row.justify-content-center.align-items-center.mb-0(numero="4" titulo="Paso 4. Identificación de la potencia máxima instantánea (Ppico)")
             .col-lg-12
-              p.mb-4.mt-lg-0.mt-5.mt-md-2 Para dimensionar el inversor, se debe identificar la hora de mayor consumo (la PPico). Asumiendo que el pico ocurre a las 7:00 p. m., donde la familia usa simultáneamente:
+              p.mb-4.mt-lg-0.mt-5.mt-md-2 Para dimensionar el inversor, se debe identificar la hora de mayor consumo (la Ppico). Asumiendo que el pico ocurre a las 7:00 p. m., donde la familia usa simultáneamente:
               ul.lista-ul.mb-4
                 li.d-flex.mb-0
                   i.fas.fa-circle-check
@@ -420,10 +420,10 @@
               .row.justify-content-center.mb-4
                 .col-lg-6
                   .bg8.p-4.text-center
-                    p.mb-0 PPico = 28 W + 50 W + 100 W + 300 W = 478 W
+                    p.mb-0 Ppico = 28 W + 50 W + 100 W + 300 W = 478 W
               p.mb-4 El inversor debe tener una capacidad nominal superior a 478 W (más margen de seguridad y picos de arranque).
               p.mb-4 #[b Conclusión del ejemplo]
-              p.mb-4 Para el hogar “La esperanza”, el sistema FV aislado debe ser diseñado para:
+              p.mb-4 Para el hogar “La Esperanza”, el sistema FV aislado debe ser diseñado para:
               ol.lista-ol--cuadro.mb-0
                 li.d-flex
                   .lista-ol--cuadro__vineta

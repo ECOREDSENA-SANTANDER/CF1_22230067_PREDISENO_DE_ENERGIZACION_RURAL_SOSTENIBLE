@@ -12,7 +12,7 @@
         .col-lg-1.col-md-2.col-4
           img.mb-4.mb-lg-0.mb-md-0(src="@/assets/curso/tema4/1.svg")
         .col-lg-11.col-md-9.col-11
-          p.mb-0 El prediseño es el proceso de determinar el tamaño preliminar de los componentes del sistema solar fotovoltaico (FV) aislado (#[em Off - Grid]) a partir de la demanda energética diaria y el recurso solar local.
+          p.mb-0 El prediseño es el proceso de determinar el tamaño preliminar de los componentes del sistema solar fotovoltaico (FV) aislado (#[em off-grid]) a partir de la demanda energética diaria y el recurso solar local.
 
     .titulo.mb-5(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema2/sub.svg')")
@@ -23,7 +23,7 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         TabsC.color-primario
-          .bg8.p-lg-5.p-4(titulo="Pérdidas por Eficiencia (PE)")
+          .bg8.p-lg-5.p-4(titulo="Pérdidas por eficiencia (PE)")
             .row.justify-content-center.align-items-center.mb-0
               .col-lg-12
                 .row.justify-content-center.align-items-start.my-lg-0.my-4
@@ -41,14 +41,14 @@
                       li.d-flex.mb-0
                         i.fas.fa-circle-check
                         p.mb-0 #[b Pérdidas por cableado:] resistencia de los cables (generalmente 2 % al 3 %).
-          .bg8.p-lg-5.p-4(titulo="Factor de Seguridad (FS)")
+          .bg8.p-lg-5.p-4(titulo="Factor de seguridad (FS)")
             .row.justify-content-center.align-items-center.mb-0
               .col-lg-12
                 .row.justify-content-center.align-items-start.my-lg-0.my-4
                   .col-lg-5.col-md-8.col-10.mb-lg-0.mb-4
                     img(src='@/assets/curso/tema4/3.png')
                   .col-lg-7
-                    p.mb-4 Degradación del módulo: Los paneles solares pierden eficiencia con el tiempo (típicamente se espera una pérdida de 0.5 % a 1 % anual).
+                    p.mb-4 Degradación del módulo: los paneles solares pierden eficiencia con el tiempo (típicamente se espera una pérdida de 0.5 % a 1 % anual).
                     ul.lista-ul.mb-0
                       li.d-flex.mb-0
                         i.fas.fa-circle-check
@@ -118,7 +118,7 @@
               p.mb-0 #[b Días de autonomía:] generalmente 1 a 3 días en ZNI.
             li.d-flex.mb-0
               i.fas.fa-circle-check
-              p.mb-0 #[b DoD:] porcentaje máximo de la capacidad de la batería que se utiliza (ejemplo 50 % para plomo - ácido, 80 – 90 % para litio).
+              p.mb-0 #[b DoD:] porcentaje máximo de la capacidad de la batería que se utiliza (ejemplo: 50 % para plomo-ácido, 80 – 90 % para litio).
 
 </template>
 

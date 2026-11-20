@@ -11,7 +11,7 @@
       .col-lg-12
         img(src='@/assets/curso/tema5/1.png')
 
-    p.mb-5(data-aos="fade-left") La prefactibilidad integral es un documento técnico económico formal que consolida los hallazgos del diagnóstico y el prediseño para determinar si el proyecto de Energización Rural Sostenible (ERS) es viable antes de invertir en la ingeniería de detalle (fase de factibilidad). Su estructura debe ser coherente con los requisitos de entidades financiadoras como el IPSE y el FAZNI en Colombia.
+    p.mb-5(data-aos="fade-left") La prefactibilidad integral es un documento técnico-económico formal que consolida los hallazgos del diagnóstico y el prediseño para determinar si el proyecto de Energización Rural Sostenible (ERS) es viable antes de invertir en la ingeniería de detalle (fase de factibilidad). Su estructura debe ser coherente con los requisitos de entidades financiadoras como el IPSE y el FAZNI en Colombia.
 
     .titulo.mb-5(data-aos="fade-right")
       img(:src="require('@/assets/curso/tema2/sub.svg')")
@@ -32,7 +32,7 @@
                   li.d-flex.mb-0
                     i.fas.fa-circle-check
                     p.mb-0 Resultados del diagnóstico social: inclusión del mapeo de actores clave y la validación comunitaria del proyecto.
-          .tarjeta.color-a.p-4(titulo="Modelo de Gestión y Operación")
+          .tarjeta.color-a.p-4(titulo="Modelo de gestión y operación")
             .row.justify-content-center.align-items-center
               .col-lg-12
                 ul.lista-ul.mb-0
@@ -65,7 +65,7 @@
                   p.mb-0 Presentación de la demanda energética diaria total (Wh/día).
                 li.d-flex.mb-0
                   i.fas.fa-circle-check
-                  p.mb-0 Presentación de la curva de demanda y la potencia Máxima Instantánea (PPico).
+                  p.mb-0 Presentación de la curva de demanda y la potencia máxima instantánea (Ppico).
             .col-lg-5.cel
               figure
                 img(src='@/assets/curso/tema5/2.png')
@@ -88,7 +88,7 @@
               ul.lista-ul.mb-0
                 li.d-flex.mb-1
                   i.fas.fa-circle-check
-                  p.mb-0 Cálculo de la potencia de la Matriz Solar (Wp) y número de paneles requeridos.
+                  p.mb-0 Cálculo de la potencia de la matriz solar (Wp) y número de paneles requeridos.
                 li.d-flex.mb-1
                   i.fas.fa-circle-check
                   p.mb-0 Cálculo de la capacidad del banco de baterías (autonomía y profundidad de descarga).
@@ -144,14 +144,14 @@
                 li.d-flex.mb-0
                   i.fas.fa-circle-check
                   p.mb-0 Costos administrativos del modelo de gestión propuesto.
-          .row.justify-content-center.align-items-center.mb-0(numero="3" titulo="Análisis costo - beneficio (ACB)")
+          .row.justify-content-center.align-items-center.mb-0(numero="3" titulo="Análisis costo-beneficio (ACB)")
             .col-lg-12
               ul.lista-ul.mb-0
                 li.d-flex.mb-4
                   i.fas.fa-circle-check
                   p.mb-0 Cálculo del Valor Presente Neto (VPN) y Tasa Interna de Retorno (TIR) del proyecto.
                 .bg11.p-4
-                  p.mb-0 #[b Nota:] en proyectos de ERS con alto impacto social y bajos ingresos, los cálculos financieros a menudo se enfocan en la Viabilidad Social del Gasto y la capacidad de apalancamiento con fondos públicos (FAZNI), más que en la rentabilidad privada.
+                  p.mb-0 #[b Nota:] en proyectos de ERS con alto impacto social y bajos ingresos, los cálculos financieros a menudo se enfocan en la viabilidad social del gasto y la capacidad de apalancamiento con fondos públicos (FAZNI), más que en la rentabilidad privada.
           .row.justify-content-center.align-items-center.mb-0(numero="4" titulo="Presupuesto consolidado y solicitud de financiación")
             .col-lg-12
               p.mb-0 Resumen de los montos requeridos y la fuente de financiación a la que se postulará.

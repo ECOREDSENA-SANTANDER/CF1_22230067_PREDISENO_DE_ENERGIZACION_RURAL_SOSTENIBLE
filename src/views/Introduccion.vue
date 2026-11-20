@@ -12,7 +12,7 @@
       .col-lg-12
         img(src='@/assets/curso/intro/1.png')
     
-    p.mb-lg-5.mb-4(data-aos="fade-left") Bienvenidos al componente virtual “Diagnóstico social y energético de usuario rural”. Este documento ha sido elaborado con el propósito de orientar de manera clara y estructurada el desarrollo del proceso formativo, brindando la información necesaria para comprender y aprovechar integralmente este programa de formación
+    p.mb-lg-5.mb-4(data-aos="fade-left") Bienvenidos al componente virtual “Diagnóstico social y energético de usuario rural”. Este documento ha sido elaborado con el propósito de orientar de manera clara y estructurada el desarrollo del proceso formativo, brindando la información necesaria para comprender y aprovechar integralmente este programa de formación.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-5.d-none.d-lg-block

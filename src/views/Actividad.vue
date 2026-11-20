@@ -83,7 +83,7 @@ export default {
             {
               id: 'c',
               texto:
-                'Tener conexión al Sistema interconectado nacional pero con variaciones de voltaje.',
+                'Tener conexión al Sistema Interconectado Nacional pero con variaciones de voltaje.',
               esCorrecta: false,
             },
             {
@@ -254,7 +254,7 @@ export default {
             {
               id: 'd',
               texto:
-                'Aumentar la cantidad de horas solares picos disponibles en la zona.',
+                'Aumentar la cantidad de horas solares pico disponibles en la zona.',
               esCorrecta: false,
             },
           ],
@@ -417,7 +417,7 @@ export default {
             { id: 'a', texto: 'El IPSE.', esCorrecta: false },
             { id: 'b', texto: 'La Superservicios.', esCorrecta: false },
             { id: 'c', texto: 'La CREG.', esCorrecta: true },
-            { id: 'd', texto: 'El Ministerio de Salud', esCorrecta: false },
+            { id: 'd', texto: 'El Ministerio de Salud.', esCorrecta: false },
           ],
           mensaje_correcto:
             'Se evidencia un buen dominio de los conceptos sobre el Diagnóstico social y energético de usuario rural.',
@@ -427,14 +427,14 @@ export default {
         {
           id: 13,
           texto:
-            'En la fórmula de energía ($E = P \\times T$), ¿qué representa la variable “P”?',
+            'En la fórmula de energía E = P × T, ¿qué representa la variable “P”?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'La potencia nominal del aparato, generalmente expresada en Vatios (W).',
+                'La potencia nominal del aparato, generalmente expresada en vatios (W).',
               esCorrecta: true,
             },
             {

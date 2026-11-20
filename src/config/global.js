@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Diagnóstico social y energético de usuario rural',
     Description:
-      'La energización rural sostenible en Colombia integra el marco de las zonas no interconectadas con un diagnóstico multidimensional. Articula la participación comunitaria y el análisis técnico para diseñar sistemas fotovoltaicos. Esta estructura, que considera la viabilidad ambiental, fundamenta la prefactibilidad bajo la regulación del IPSE (Instituto de Planificación de Soluciones Energéticas) y la CREG (Comisión de Regulación de Energía y Gas).',
+      'La energización rural sostenible en Colombia integra el marco de las zonas no interconectadas con un diagnóstico multidimensional. Articula la participación comunitaria y el análisis técnico para diseñar sistemas fotovoltaicos. Esta estructura, que considera la viabilidad ambiental, fundamenta la prefactibilidad bajo la regulación del IPSE (Instituto de Planificación y Promoción de Soluciones Energéticas) y la CREG (Comisión de Regulación de Energía y Gas).',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -51,7 +51,7 @@ export default {
           },
           {
             numero: '1.2',
-            titulo: 'Marco Institucional Colombiano',
+            titulo: 'Marco institucional colombiano',
             hash: 't_1_2',
           },
           {
@@ -169,7 +169,7 @@ export default {
     {
       termino: 'FAZNI',
       significado:
-        'fondo de apoyo financiero para la energización de las zonas no interconectadas.',
+        ' Fondo de Apoyo Financiero para la Energización de las Zonas No Interconectadas',
     },
     {
       termino: 'Fuentes no convencionales de energía renovable',
@@ -256,7 +256,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Responsable Ecosistema de Recursos Educativos Digitales (RED)',
+            'Profesional G06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -285,8 +285,8 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Julian Fernando Vanegas Vega',
-          cargo: 'Diseñador de contenidos',
+          nombre: 'Yazmin Rocio Figueroa Pacheco',
+          cargo: 'Diseñadora de contenidos',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -295,7 +295,7 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Maria Alejandra Vera Briceño',
+          nombre: 'María Alejandra Vera Briceño',
           cargo: 'Animadora y productora audiovisual',
           centro: 'Centro Agroturístico - Regional Santander',
         },
@@ -305,13 +305,13 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Yineth Ibette Gonzalez Quintero',
-          cargo: 'Validadora y vinculadora de recursos educativos digitales',
+          nombre: 'Yineth Ibette González Quintero',
+          cargo: 'Validadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Sandra Liliana Cristancho Cruz',
-          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
